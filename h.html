@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princy Emmanuel</title>
+    <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C5603AQEPfootJdjBAQ/profile-displayphoto-shrink_200_200/0?e=1603929600&v=beta&t=moqenDF-ubjyI-y3Z1X12hC_W_QWgm20kNLir--X3BE" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+
+  <header  class="bg-info" style="position:fixed; width: 100% ; z-index:1;">
+    <div class="row text-white"> 
+        <div class="col-md-6 col-9 p=3 pl=5" style="padding-left: 3em;">
+            <h2>Princy Emmanuel</h2>
+        </div>
+        <div class="col-md-6 col-3 my-auto">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                
+               
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="sub"  style="color: white;"  href="index.html">Home
+                      <a class="nav-link text-white" href="#home-section"><span class="sr-only"></span></a>
+                    </a>
+                    </li>
+                   
+                    <li class="nav-item">
+                      <a class="sub"  style="color:white;padding-top: 3em;"  href="index.html" >Education
+                      <a class="nav-link text-white" href="#education-section"></a>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="sub"  style="color: white;"  href="index.html">Experience
+                        <a class="nav-link text-white" href="#experience-section"></a>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="sub"  style="color: white;"  href="index.html">Certifications
+                        <a class="nav-link text-white" href="#certification-section"></a>
+                        </a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="sub"  style="color: white;"  href="index.html">Contact me
+                        <a class="nav-link text-white" href="#contact-section"></a>
+                        </a>
+                    </li>  
+
+                  
+                </div>
+              </nav>
+
+        </div>
+
+
+
+    </div>
+</header>
+    
+  <section class="bg-light" id="contact-section" style="padding-top: 7em;">
+    <div class="container">
+        <h3 class="text-center">Contact Me</h3>
+        <form id="submit-form">
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="inputEmail4">First Name</label>
+                <input type="text" id="f_name"class="form-control" name="fname" placeholder="First name">
+                <label style="display: none;" id="errorf">enter min character</label>
+              </div>
+              <div class="col-md-6">
+                <label >Last Name</label>
+                <input type="text" class="form-control" name="lname" placeholder="Last name">
+                <label style="display: none;" id="errorl">enter min character</label>
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label >Email</label>
+                  <input type="email" class="form-control" name="emailId" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label >Mobile</label>
+                  <input type="tel" class="form-control" name="mob" placeholder="Mobile">
+                  <label style="display: none;" id="errornum">enter valid mobile number</label>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-6">
+                
+                  <label>Birthday</label>
+                   <br>
+                  <select class="op" name="day" id="">
+                   <option value="">day</option>
+                   <option value="1">01</option>
+                   <option value="2">02</option>
+                  </select>
+                  <select  class="op" name="month" id="">
+                   <option value="">month</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                  </select>
+                  <select  class="op" name="year" id="">
+                   <option value="">year</option>
+                   <option value="1998">1998</option>
+                   <option value="1999">1999</option>
+                 </select>
+               </div>
+             
+              
+              
+
+               <div class="col-md-6">
+                    <label>Gender</label>
+                    <br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+
+                </div>
+              </div>
+              <div class="form-group ">
+                <label for="inputAddress">Message</label>
+                <textarea class="form-control" name="msg"   cols="30" rows="5"placeholder ="Type your message here"></textarea>
+                <label style="display: none;" id="errormsg">Type something</label>
+              </div>
+              
+              
+              <div class=" form-group text-center col-md-12">
+               
+                <input type="submit" id="btn"  value="Submit" style="width: 100%;">
+              </div>
+        </form>
+    </div>
+</section>
+<footer class="bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center" >
+                <a href="https://www.facebook.com/princy.emmanuel.7">
+                  <i class="fab fa-facebook-square fa-lg ;"></i></a>
+                  <a href="https://www.linkedin.com/in/princy-emmanuel-6b976718b/">
+                <i class="fab fa-linkedin fa-lg"></i></a>
+                
+
+                <p>Copyrights</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script>
+   $(function(){
+       var $submit-form = $("submit-form");
+       if(#submit-form.length){
+        $(document).ready(function(){
+    $("#submit-form").validate({
+      rules:{
+        fname:{
+          required:true,
+          minlength:4
+        },
+        lname:{
+          required:true,
+          minlength:4
+        },
+        emailId:{
+          required:true,
+          email:true
+        },
+        mob:{
+          required:true,
+          minlength:10
+        },
+        day:{
+          required:true
+        },
+        month:{
+          required:true
+        },
+        year:{
+          required:true
+        },
+        gender:{
+          required:true
+        },
+        msg:{
+          required:true
+        }
+      
+      },
+      messages:{
+          fname:"enter fist name"      }
+
+    })
+    
+    $("#btn").mouseenter(function(){
+                $(this).css({"background":"green"})
+            })
+            $("#btn").mouseleave(function(){
+                $(this).css({"background":"white"})
+    })
+    $("#btn").click(function(){
+           alert(" Succesfully Submitted ")
+
+         })
+            
+
+  })
+        
+       }
+    }   
+ 
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6c50fafeda.js" crossorigin="anonymous"></script>
+      
+</body>
+</html>
